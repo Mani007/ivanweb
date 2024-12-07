@@ -24,7 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"  suppressHydrationWarning>
+    <html lang="en"  suppressHydrationWarning> 
+    {/* html comment above for removing ssr hyderation waring in react and next js setup. */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
