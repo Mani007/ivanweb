@@ -9,17 +9,7 @@ export default function Home() {
   // }, [])
   return (
     <>
-    <div className=" mt-[200px]">
-      <p>
-        Home
-      </p>
-      <p>
-        About
-      </p>
-      <p>
-        Contact
-      </p>
-    </div>
+    <p>Landing page</p>
     
     </>
   );
