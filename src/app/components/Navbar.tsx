@@ -41,8 +41,37 @@ function Navbar() {
             {/* small screen nav */}
             {/* Onclick change the icons */}
             <div className='flex md:hidden' onClick={smallNav}>
-                {menuIcon ? (<AiOutlineMenu size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />):(<AiOutlineClose size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />)}
-                
+                {menuIcon ? (<AiOutlineClose size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />):(<AiOutlineMenu size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />)}  
+            </div>
+            {/* Smaller screen navbar */}
+            <div className={
+                menuIcon ? 
+                'md:hidden  absolute top-[100px] right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen ease-in duration-300 bg-slate-300 text-slate-900'
+                :
+                'md:hidden  absolute top-[100px] right-0 bottom-0 left-[-100%]  flex justify-center items-center w-full h-screen ease-in duration-300 bg-slate-300 text-slate-900 text-center'
+            }>
+
+                {/* small screen navlinks */}
+                <div className='w-full'>
+                    <ul className='uppercase text-2xl font-bold'>
+                        <li onClick={smallNav} className='py-5 hover:text-slate-100'>
+                            <Link href='/About'>About</Link>
+                        </li>
+                        <li onClick={smallNav} className='py-5 hover:text-slate-100'>
+
+                            <Link href='/Customers'>Customers</Link>
+                        </li>
+                        <li onClick={smallNav} className='py-5 hover:text-slate-100'>
+
+                            <Link href='/Services'>Services</Link>
+                        </li>
+                        <li onClick={smallNav} className='py-5 hover:text-slate-100'>
+                            <Link href='/Contact'>Contact</Link>
+                            
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
