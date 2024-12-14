@@ -36,6 +36,14 @@ function Navbar() {
                     <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/Services' onClick={smallNav}>Services</Link></li>
                     <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
                 </ul>
+
+
+            {/* small screen nav */}
+            {/* Onclick change the icons */}
+            <div className='flex md:hidden' onClick={smallNav}>
+                {menuIcon ? (<AiOutlineMenu size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />):(<AiOutlineClose size={30} className='text-slate-900 hover:text-slate-100' onClick={smallNav} />)}
+                
+            </div>
         </nav>
     </header>
     </>
