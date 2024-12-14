@@ -25,7 +25,15 @@ function Navbar() {
                 height={40}
                 />
                 </Link>
+               
             </div>
+             {/* large screen nav */}
+             {/* This nav links are hidden but after md size they will show up */}
+             <ul className='hidden md:flex lg:text-[20px] uppercase text-slate-900'>
+                    <li><Link href='/' onClick={smallNav}>Home</Link></li>
+                    <li><Link href='/about' onClick={smallNav}>About</Link></li>
+                    <li><Link href='/contact' onClick={smallNav}>Contact</Link></li>
+                </ul>
         </nav>
     </header>
     </>
