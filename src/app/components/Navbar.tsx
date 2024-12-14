@@ -30,9 +30,11 @@ function Navbar() {
              {/* large screen nav */}
              {/* This nav links are hidden but after md size they will show up */}
              <ul className='hidden md:flex lg:text-[20px] uppercase text-slate-900'>
-                    <li><Link href='/' onClick={smallNav}>Home</Link></li>
-                    <li><Link href='/about' onClick={smallNav}>About</Link></li>
-                    <li><Link href='/contact' onClick={smallNav}>Contact</Link></li>
+                    <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/' onClick={smallNav}>Home</Link></li>
+                    <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/About' onClick={smallNav}>About</Link></li>
+                    <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/Customers' onClick={smallNav}>Customers</Link></li>
+                    <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/Services' onClick={smallNav}>Services</Link></li>
+                    <li className='mr-4 lg:mr-8 hover:text-slate-100'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
                 </ul>
         </nav>
     </header>
