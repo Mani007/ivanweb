@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../../public/UNCMON-20.svg'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-
+// TODO: Navbar complted from functionality but make it crisp
 function Navbar() {
 
     const [menuIcon, setmenuIcon] = useState(false)
