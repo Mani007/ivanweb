@@ -13,7 +13,7 @@ function Bgvideo() {
     /> */}
     <div className='w-screen'>
 
-    <video src="WebHeader.mp4" autoPlay loop muted playsInline  className='min-w-[125%] min-h-full '/>
+    <video src="WebHeader.mp4" autoPlay loop muted playsInline  className='md:min-w-[125%] min-w-full  min-h-full '/>
     </div>
     <div className="text-center items-center justify-center absolute sm:w-4/5 w-screen">
     
