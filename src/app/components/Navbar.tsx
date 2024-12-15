@@ -53,7 +53,7 @@ function Navbar() {
 
                 {/* small screen navlinks */}
                 <div className='w-full'>
-                    <ul className='uppercase text-2xl font-bold'>
+                    <ul className='uppercase text-2xl text-center font-bold'>
                         <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
                             <Link href='/About'>About</Link>
                         </li>
