@@ -30,18 +30,18 @@ function Navbar() {
              {/* large screen nav */}
              {/* This nav links are hidden but after md size they will show up */}
              <ul className='hidden md:flex lg:text-[20px] uppercase text-slate-900'>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-blue-300'><Link href='/' onClick={smallNav}>Home</Link></li>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-blue-300'><Link href='/About' onClick={smallNav}>About</Link></li>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-blue-300'><Link href='/Customers' onClick={smallNav}>Customers</Link></li>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-blue-300'><Link href='/Services' onClick={smallNav}>Services</Link></li>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-blue-300'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/' onClick={smallNav}>Home</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/About' onClick={smallNav}>About</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Customers' onClick={smallNav}>Customers</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Services' onClick={smallNav}>Services</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
                 </ul>
 
 
             {/* small screen nav */}
             {/* Onclick change the icons */}
             <div className='flex md:hidden' onClick={smallNav}>
-                {menuIcon ? (<AiOutlineClose size={30} className='text-slate-100 hover:text-blue-300' onClick={smallNav} />):(<AiOutlineMenu size={30} className='text-slate-100 hover:text-blue-300' onClick={smallNav} />)}  
+                {menuIcon ? (<AiOutlineClose size={30} className='text-slate-100 hover:text-[#00df9a]' onClick={smallNav} />):(<AiOutlineMenu size={30} className='text-slate-100 hover:text-[#00df9a]' onClick={smallNav} />)}  
             </div>
             {/* Smaller screen navbar */}
             <div className={
@@ -54,18 +54,18 @@ function Navbar() {
                 {/* small screen navlinks */}
                 <div className='w-full'>
                     <ul className='uppercase text-2xl font-bold'>
-                        <li onClick={smallNav} className='py-5 hover:text-blue-300'>
+                        <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
                             <Link href='/About'>About</Link>
                         </li>
-                        <li onClick={smallNav} className='py-5 hover:text-blue-300'>
+                        <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
                             <Link href='/Customers'>Customers</Link>
                         </li>
-                        <li onClick={smallNav} className='py-5 hover:text-blue-300'>
+                        <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
                             <Link href='/Services'>Services</Link>
                         </li>
-                        <li onClick={smallNav} className='py-5 hover:text-blue-300'>
+                        <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
                             <Link href='/Contact'>Contact</Link>
                             
                         </li>
