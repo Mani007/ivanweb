@@ -219,7 +219,7 @@ function Footer() {
                   </p>
                 </li>
                 <li>
-                <div className="mt-2">
+                {/* <div className="mt-2">
                 <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                   <a
                     target="_blank"
@@ -293,7 +293,7 @@ function Footer() {
                     </svg>
                   </a>
                 </span>
-              </div>
+              </div> */}
                 </li>
               </nav>
             </div>
