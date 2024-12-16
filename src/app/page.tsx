@@ -23,7 +23,7 @@ export default function Home() {
         <Serviceshero />
         <Socialproof />
         <Contentprimary />
-        <Cta />
+        {/* <Cta /> */}
         <Customerlogo />
         <Contentsecondry />
       </div>
