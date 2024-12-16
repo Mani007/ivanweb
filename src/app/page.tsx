@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import Bgvideo from "./components/Bgvideo";
+import Serviceshero from "./components/Serviceshero";
 // import { useState, useEffect } from 'react'
 // TODO:we need to complete the position of landing page 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
     <>
     <div className="relative" >
 <Bgvideo/>
-    
+    <Serviceshero/>
     </div>
     
     </>
