@@ -39,21 +39,21 @@ function Footer() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className=" text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg"><path d="M0.325 0.25h0.075v0.075h-0.075v0.175h-0.075v-0.175H0.175v-0.075h0.075V0.219c0 -0.03 0.009 -0.067 0.028 -0.088Q0.306 0.1 0.348 0.1H0.4v0.075h-0.053c-0.012 0 -0.023 0.01 -0.023 0.022z"/></svg>
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className=" text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                    <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 0.8 0.8" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>x</title><path d="m0.655 0.675 -0.222 -0.278 0.218 -0.273a0.007 0.007 0 0 0 -0.006 -0.012h-0.03a0.007 0.007 0 0 0 -0.006 0.003v0l-0.202 0.254L0.206 0.115a0.007 0.007 0 0 0 -0.006 -0.003H0.17a0.007 0.007 0 0 0 -0.006 0.012v0l0.218 0.273 -0.222 0.278a0.007 0.007 0 0 0 0.006 0.012h0.029a0.007 0.007 0 0 0 0.006 -0.003v0l0.206 -0.257 0.206 0.257a0.007 0.007 0 0 0 0.006 0.003h0.03a0.008 0.008 0 0 0 0.006 -0.012z"/></svg>
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg
@@ -74,7 +74,7 @@ function Footer() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg
@@ -238,21 +238,21 @@ function Footer() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className=" text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg"><path d="M0.325 0.25h0.075v0.075h-0.075v0.175h-0.075v-0.175H0.175v-0.075h0.075V0.219c0 -0.03 0.009 -0.067 0.028 -0.088Q0.306 0.1 0.348 0.1H0.4v0.075h-0.053c-0.012 0 -0.023 0.01 -0.023 0.022z"/></svg>
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className=" text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                    <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 0.8 0.8" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>x</title><path d="m0.655 0.675 -0.222 -0.278 0.218 -0.273a0.007 0.007 0 0 0 -0.006 -0.012h-0.03a0.007 0.007 0 0 0 -0.006 0.003v0l-0.202 0.254L0.206 0.115a0.007 0.007 0 0 0 -0.006 -0.003H0.17a0.007 0.007 0 0 0 -0.006 0.012v0l0.218 0.273 -0.222 0.278a0.007 0.007 0 0 0 0.006 0.012h0.029a0.007 0.007 0 0 0 0.006 -0.003v0l0.206 -0.257 0.206 0.257a0.007 0.007 0 0 0 0.006 0.003h0.03a0.008 0.008 0 0 0 0.006 -0.012z"/></svg>
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg
@@ -273,7 +273,7 @@ function Footer() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opscraft-cloud"
+                    href="/About"
                     className="ml-3 text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg
