@@ -24,7 +24,7 @@ function Footer() {
                 <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                   <a
                     target="_blank"
-                    href="https://www.youtube.com/channel/UCT1NVlCIZs5oFeUn76M2X8w"
+                    href="/Customers"
                     className=" text-gray-500 cursor-pointer hover:text-[#00df9a]"
                   >
                     <svg
