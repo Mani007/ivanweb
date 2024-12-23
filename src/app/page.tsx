@@ -19,13 +19,13 @@ export default function Home() {
     <>
       <div className="relative">
         <Bgvideo />
-        <Heroone />
+        {/* <Heroone />
         <Serviceshero />
         <Socialproof />
         <Contentprimary />
         <Cta />
         <Customerlogo />
-        <Contentsecondry />
+        <Contentsecondry /> */}
       </div>
     </>
   );

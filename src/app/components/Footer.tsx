@@ -299,7 +299,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-300">
+        <div className="bg-slate-900">
           <div className="container px-5 py-4 mx-auto">
             <p className="text-sm text-gray-700 capitalize text-center xl:text-center">
               © 2023-2025 All rights reserved{" "}

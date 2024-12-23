@@ -15,13 +15,14 @@ function Bgvideo() {
 
     <video src="WebHeader.mp4" autoPlay loop muted playsInline  className='md:min-w-[125%] min-w-full  min-h-full '/>
     </div>
-    <div className="text-center items-center justify-center absolute sm:w-4/5 w-screen">
+    <div className="sm:text-start sm:items-start sm:justify-start text-center items-center justify-center absolute sm:w-4/5 w-screen">
     
-      {/* <h1 className="title-font sm:text-6xl text-xl  font-medium text-slate-200"><span className='text-[#00df9a]'>OPScraft</span> is the <span className='text-[#00df9a]'>LAST THING</span> you ever need in <span className='text-[#00df9a]'>Artificial Intelligence</span></h1> */}
-      {/* <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div> */}
+      <h1 className="title-font mt-10 sm:text-2xl text-sm  font-medium text-slate-200"> CRAFTING EXTRAORDINARY BRAND STORIES</h1>
+      <p className="text-sm sm:text-xl leading-relaxed text-slate-100">A creative studio that create, produce and deliver beautifully <br /> crafted  animation content that transforms the world&apos;s greatest brands. </p>
+      <div className="flex justify-center sm:justify-start">
+        <button className=" mt-4 text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">View More</button>
+        {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
+      </div>
     
     </div>
   </div>
