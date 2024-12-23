@@ -4,10 +4,11 @@ import sampleimg from "../../../public/Sample images/pexels-pixabay-349758.jpg";
 function page() {
   return (
     <>
-      <div className=" relative bg-slate-900 flex items-center justify-center flex-col">
-        <div className="aspect-w-16 aspect-h-9">
+      <div className=" relative flex bg-slate-900 py-28 items-center justify-center flex-col ">
+        <div className=" aspect-w-16 aspect-h-9">
           <iframe
             src="https://www.youtube.com/embed/r9jwGansp1E"
+            className ="w-screen sm:px-20 h-[300px]  sm:h-[450px] md:h-[600px] lg:h-[450px] xl:h-[600px]"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
