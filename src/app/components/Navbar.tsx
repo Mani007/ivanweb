@@ -32,7 +32,7 @@ function Navbar() {
              <ul className='hidden md:flex lg:text-[20px] uppercase text-slate-900'>
                     <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/' onClick={smallNav}>Home</Link></li>
                     <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/About' onClick={smallNav}>About</Link></li>
-                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Customers' onClick={smallNav}>Behind the scene</Link></li>
+                    <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Behindthescene' onClick={smallNav}>Behind the scene</Link></li>
                     {/* <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Services' onClick={smallNav}>Services</Link></li> */}
                     <li className='mr-4 lg:mr-8 text-slate-100 hover:text-[#00df9a]'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
                 </ul>
