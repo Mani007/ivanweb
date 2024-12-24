@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function Bgvideo() {
   return (
     <>
@@ -20,7 +20,9 @@ function Bgvideo() {
       <h1 className="title-font mt-10 sm:text-2xl text-sm  font-medium text-slate-200"> CRAFTING EXTRAORDINARY BRAND STORIES</h1>
       <p className="text-sm sm:text-xl leading-relaxed text-slate-100">A creative studio that create, produce and deliver beautifully <br /> crafted  animation content that transforms the world&apos;s greatest brands. </p>
       <div className="flex justify-center sm:justify-start">
+        <Link href='/Behindthescene'>
         <button className=" mt-4 text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">View More</button>
+        </Link>
         {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
       </div>
     
