@@ -7,7 +7,7 @@ function page() {
     <>
       <div className=" relative flex bg-slate-900 py-28 items-center justify-center flex-col ">
         <div className=" aspect-w-16 aspect-h-9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ImfsIPUQsQ?si=r8B518ntpvrSD5K3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe className=' w-screen sm:max-w-2xl' width="560" height="315" src="https://www.youtube.com/embed/2ImfsIPUQsQ?si=r8B518ntpvrSD5K3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         {/* <div className="w-screen">
           <video
