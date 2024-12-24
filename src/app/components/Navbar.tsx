@@ -59,7 +59,7 @@ function Navbar() {
                         </li>
                         <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
-                            <Link href='/Customers'>Behind the scene</Link>
+                            <Link href='/Behindthescene'>Behind the scene</Link>
                         </li>
                         {/* <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
